@@ -1,6 +1,6 @@
 
-c-output.exe:main.o big2.o big3.o fact.o
-	gcc -o c-output.exe main.o big2.o big3.o fact.o
+c-output.exe:main.o big2.o big3.o fact.o rev.o pal.o sum3.o fib.o sort-num.o 
+	gcc -o c-output.exe main.o big2.o big3.o fact.o  rev.o pal.o sum3.o fib.o sort-num.o
 main.o:main.c
 	gcc -c main.c
 big2.o:big2.c
