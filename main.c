@@ -4,7 +4,7 @@ main(){
 	biggest3();
 	factorial();
 	reverse();
-	palindrome();
+	pallindrome();
 	fibanaci();
 	sum of 3();
 	sort();
