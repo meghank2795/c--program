@@ -1,6 +1,6 @@
 
-c-output.exe:main.o big2.o big3.o fact.o rev.o pal.o sum3.o fib.o sort-num.o 
-	gcc -o c-output.exe main.o big2.o big3.o fact.o  rev.o pal.o sum3.o fib.o sort-num.o
+c-output.exe:main.o big2.o big3.o fact.o rev.o pal.o sum3.o fib.o 
+	gcc -o c-output.exe main.o big2.o big3.o fact.o rev.o pal.o sum3.o fib.o 
 main.o:main.c
 	gcc -c main.c
 big2.o:big2.c
@@ -17,8 +17,6 @@ sum3.o:sum3.c
 	gcc -c sum3.c
 fib.o:fib.c
 	gcc -c fib.c
-sort-num.o:sort-num.c
-	gcc -c sort-num.c
 clean:
 	rm -rf *.o
 
