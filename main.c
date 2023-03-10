@@ -7,6 +7,5 @@ main(){
 	pallindrome();
 	fibanaci();
 	sum of 3();
-	sort();
 }	
 
