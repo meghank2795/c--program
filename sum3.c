@@ -1,5 +1,5 @@
 #include<stdio.h>
-sum of 3()
+sum3()
 {
   //Declaring Four Variables
   
