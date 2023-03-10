@@ -6,6 +6,6 @@ main(){
 	reverse();
 	pallindrome();
 	fibanaci();
-	sum of 3();
+	sum3();
 }	
 
